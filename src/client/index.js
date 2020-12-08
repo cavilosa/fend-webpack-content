@@ -1,14 +1,21 @@
 import { checkForName } from "./js/nameChecker";
 import { handleSubmit } from "./js/formHandler";
 import img from "./images/footer.jpg";
+import "./styles/base.css";
 
+/*
+function component() {
+    const element = document.createElement("div");
 
-/*const image = new Image();
-image.src = img;
+    element.innerHTML = `Hello, webpack`;
+    element.classList.add("hello");
 
-const footer = document.querySelector("footer");
-footer.appendChild(image);*/
+    return element;
 
-console.log(checkForName)
+}
+
+document.body.appendChild(component());*/
+
+console.log(checkForName);
 
 alert("I exist!")
